@@ -14,6 +14,15 @@ public class Clothes {
     private String color;
     private double price;
 
+
+    public Clothes(int id, String category, String brand, String color, double price) {
+        this.id = id;
+        this.category = category;
+        this.brand = brand;
+        this.color = color;
+        this.price = price;
+    }
+
     public int getId() {
         return id;
     }
